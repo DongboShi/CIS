@@ -1,5 +1,5 @@
 title = "Notre-Dame de Paris"
-baseURL = "https://gohugo-theme-ananke.pages.dev"
+baseURL = "https://china-innovation-entrepreneurship-eminar.netlify.app/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 resourceDir = "../resources"
