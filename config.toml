@@ -17,6 +17,18 @@ enableRobotsTXT = true
     contentDir = "content/en"
     # languageDirection = 'rtl' for Right-To-Left languages
 
+[menu]
+    [[main]]
+        name = "About"
+        weight = 40
+        url = "https://community.letsencrypt.org/"
+    
+    [[main]]
+        name = "about"
+        weight = 2
+        parent = "About"
+        url = "https://community.letsencrypt.org/"
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
@@ -31,4 +43,5 @@ enableRobotsTXT = true
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   recent_posts_number = 3
+
 
