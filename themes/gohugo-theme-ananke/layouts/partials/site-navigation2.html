@@ -25,16 +25,17 @@
         {{ .Site.Title }}
       {{ end }}
     </a>
+  </div>
 
-    <div class="flex-l items-center">
+    <div class="flex-l justify-start items-center center">
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
-        <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
-          {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-      {{ if .HasChildren }}
-      <div class="dropdown">
-            <span class="hover-white no-underline white-90">{{ .Name }}</span>
+
+      {{ range .Site.Menus.main }}
+       <li class="list f5 f4-ns fw4 dib pr3">
+       {{ if .HasChildren }}
+         <div class="dropdown">
+              <span class="hover-white no-underline white-90">{{ .Name }}</span>
             <div class="dropdown-content">
               <p >
                 <a href="{{ .URL }}" class="f6 hover-white no-underline white-90">All Events</a>
@@ -45,15 +46,12 @@
               </p>
               {{ end }}
             </div>
-            {{else}}
-            <a href= "{{ .URL }}" class="hover-white no-underline white-90">{{ .Name }}</a>
-        {{ end }}
+        {{else}}
+            <a href= "{{ .URL }}" class="hover-white no-underline white-90" title="{{ i18n "pageTitle" . }}">{{ .Name }}</a>
+         {{ end }}
           </li>
-          {{ end }}
-        </ul>
+        {{ end }}
+
         </div>
       {{ end }}
-      {{ partialCached "social-follow.html" . }}
-    </div>
-  </div>
 </nav>
