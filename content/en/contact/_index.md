@@ -1,8 +1,7 @@
 ---
-description: 'who we are'
-title: Contact Us
+description: 'The seminar is always open for presentations. Please contact us if you are interested in presenting your paper in this seminar or joining the mail list of the seminar. We assume that the work presented in this seminar is an unpublished research article in the field of innovation studies. Although the seminar series is prefixed with "China", the presentations are not necessarily China specific and all funtastic innovation studies are welcome.'
+title: Contact
+type: form
 ---
 
-This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out [Formspree](https://formspree.io/) for a simple, free form service.
-
-{{< form-contact action="https://example.com"  >}}
+{{< form-contact action="https://formspree.io/f/myyagzvl" >}}
