@@ -1,7 +1,7 @@
 ---
 cover_image: "/images/yanbo.jpeg"
-event_time: "the University of Hong Kong"
-speaker: "Prof. Yanbo Wang"
+speaker: "the University of Hong Kong"
+event_time: "Prof. Yanbo Wang"
 link: "https://www.hkubs.hku.hk/people/yanbo-wang/"
 weight: 60
 ---

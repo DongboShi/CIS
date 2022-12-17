@@ -2,8 +2,8 @@
 featured_image: ""
 tags: []
 cover_image: "/images/dongbo2.jpeg"
-event_time: "Shanghai Jiao Tong University"
-speaker: "Prof. Dongbo Shi"
+speaker: "Shanghai Jiao Tong University"
+event_time: "Prof. Dongbo Shi"
 link: "https://www.shidongbo.com/"
 weight: 0
 ---

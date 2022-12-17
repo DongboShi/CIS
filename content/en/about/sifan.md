@@ -1,7 +1,7 @@
 ---
 cover_image: "/images/sifan.jpeg"
-event_time: "Xiamen Univetsity"
-speaker: "Prof. Sifan Zhou"
+speaker: "Xiamen Univetsity"
+event_time: "Prof. Sifan Zhou"
 link: "https://wise.xmu.edu.cn/english/info/1071/1394.htm"
 weight: 0
 ---
