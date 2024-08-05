@@ -1,7 +1,7 @@
 ---
 cover_image: "/images/bianjiang.webp"
 speaker: "The University of Hong Kong"
-event_time: "Prof. Sifan Zhou"
+event_time: "Prof. Jiang Bian"
 link: "https://www.hkubs.hku.hk/people/jiang-bian/"
 weight: 0
 ---
