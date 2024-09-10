@@ -1,2 +1,0 @@
-# CIES
-seminar webpage
