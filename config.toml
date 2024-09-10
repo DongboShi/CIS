@@ -12,7 +12,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "CIES"
+    title = "CIS"
     weight = 1
     contentDir = "content/en"
     # languageDirection = 'rtl' for Right-To-Left languages
